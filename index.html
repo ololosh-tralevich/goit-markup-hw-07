@@ -103,7 +103,7 @@
               placeholder="Введите текст"></textarea>
 
             <div class="modal-checkbox-block">
-              <label for="checkbox">
+              <label class="modal-checkbox-label" for="checkbox">
                 <input class="modal-checkbox visually-hidden" type="checkbox" name="privace" value="privace"
                   id="checkbox" />
                 <span class="checkbox-square">
@@ -111,9 +111,9 @@
                     <use href="./images/sprite/icons.svg#checkbox-icon"></use>
                   </svg>
                 </span>
+              <p class="p-tag-modal">Соглашаюсь с рассылкой и принимаю 
               </label>
-              <p class="p-tag-modal">Соглашаюсь с рассылкой и принимаю <a class="a-tag-modal" href="example"
-                  target="_blank" rel="noreferrer noopener">Условия договора</a></p>
+                <a class="a-tag-modal" href="example" target="_blank" rel="noreferrer noopener">Условия договора</a></p>
             </div>
 
 
@@ -473,8 +473,7 @@
       <div class="footer-spam-block">
         <p class="footer-spam-invite">Подпишитесь на рассылку</p>
         <form class="spam-form-footer">
-          <label for="footer-user-email"></label>
-          <input class="spam-field" type="email" name="email" id="footer-user-email" placeholder="Email" />
+          <input class="spam-field" type="email" name="email" placeholder="Email" />
           <button class="submit-button-footer" type="submit">
             Подписаться
             <svg class="icon-send" width="24px" height="24px">
