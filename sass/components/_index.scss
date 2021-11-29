@@ -41,12 +41,11 @@
     letter-spacing: 0.06em;
     color: var(--white-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    &:hover, &:focus {
+      background-color: var(--order-btn-backgrn-clr);
+    }
   }
-  .order-button:hover,
-  .order-button:focus {
-    background-color: var(--order-btn-backgrn-clr);
-  }
-  
   .what-we-do-sect {
     padding-top: 0;
   }
@@ -147,13 +146,12 @@
     border-radius: 50px;
     fill: var(--client-logo-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
-  .grey-icon-link:hover,
-  .grey-icon-link:focus {
+    &:hover, &:focus {
     background-color: var(--hover-color);
     fill: var(--white-color);
+    }
   }
   
   /* our clients section */
@@ -169,7 +167,12 @@
   .our-client {
     margin-right: 30px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus {
+      fill: var(--hover-color);
+      border-color: var(--hover-color);
+      cursor: pointer;
+    }
   }
   .our-client-link {
     width: 170px;
@@ -183,14 +186,9 @@
     border-radius: 4px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      &:hover, &:focus {
+        fill: var(--hover-color);
+        border-color: var(--hover-color);
+        cursor: pointer;
+      }
   }
-  
-  .our-client-link:hover,
-  .our-client:hover,
-  .our-client-link:focus,
-  .our-client:focus {
-    fill: var(--hover-color);
-    border-color: var(--hover-color);
-    cursor: pointer;
-  }
-  
