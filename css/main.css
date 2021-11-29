@@ -530,6 +530,46 @@ h3 {
   background-color: var(--order-btn-backgrn-clr);
 }
 
+/* about us section */
+.about-us-li {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  width: 270px;
+}
+
+.about-us-logo-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: var(--milk-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 0;
+}
+
+.about-us-caption {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--black-color);
+  margin-bottom: 10px;
+}
+
+.about-us-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+  margin: 0;
+}
+
 .what-we-do-sect {
   padding-top: 0;
 }
